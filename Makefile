@@ -6,5 +6,8 @@ SRC=src/helloworld.c
 $(TARGET): $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
 
+run:
+	$(TARGET)
+
 clean:
 	rm -f $(TARGET)
