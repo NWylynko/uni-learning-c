@@ -1,16 +1,18 @@
 #include <stdio.h>
 
+#define MAX_INPUT_SIZE 100
+
 int main(void)
 {
-  int number;
+  char input[MAX_INPUT_SIZE];
 
   printf("Enter an integer: ");
 
   /* reads and stores input */
-  scanf("%d", &number);
+  scanf("%s", input);
 
   /* displays output */
-  printf("You entered: %d", number);
+  printf("You entered: %s", input);
 
   return 0;
 }
