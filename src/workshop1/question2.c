@@ -14,11 +14,11 @@ int main(void)
 
   if (int1 % int2 == 0)
   {
-    printf("divisible");
+    printf("divisible\n");
   }
   else
   {
-    printf("not divisible");
+    printf("not divisible\n");
   }
 
   return 0;
